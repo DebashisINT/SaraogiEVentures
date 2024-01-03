@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792827244280",
+    "project_id": "e-went-team",
+    "storage_bucket": "e-went-team.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792827244280:android:85a543b51b8089c8ee950d",
+        "android_client_info": {
+          "package_name": "com.ewentteamfsm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgHB944z7e0lNKYfojP8V3PsfP3ak1iUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
