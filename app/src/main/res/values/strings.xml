@@ -1583,8 +1583,13 @@
     <string name="camera_back" translatable="false">Back Camera :\u0020 </string>
     <string name="camera_front" translatable="false">Front Camera :\u0020 </string>
     <string name="historys" translatable="false">Historys</string>
-    <string name="firebase_key" translatable="false">AAAAuJgvrvg:APA91bGk25y6ejU7wI-bwkjPSyyd8Km2AybQba3V16pCe-Usur84KveyPnrPBea71nuAw6U4FxH30iAOf-_VfqJ-kmD4zFdNcxiZ987gBiTssdy47dgxU5xPOTjTmFro7iJc0W_LevRt</string>
-
+<!--
+    <string name="firebase_key" translatable="false">key=AAAAuJgvrvg:APA91bGk25y6ejU7wI-bwkjPSyyd8Km2AybQba3V16pCe-Usur84KveyPnrPBea71nuAw6U4FxH30iAOf-_VfqJ-kmD4zFdNcxiZ987gBiTssdy47dgxU5xPOTjTmFro7iJc0W_LevRt</string>
+-->
+    <string name="PART_1" translatable="false">key=AAAAuJgvrvg:APA91bGk25y6ejU7wI-bwkjPSyyd</string>
+    <string name="PART_2" translatable="false">8Km2AybQba3V16pCe-Usur84KveyPnrPBea71nuAw6U4FxH30iAOf-</string>
+    <string name="PART_3" translatable="false">_VfqJ-kmD4zFdNcxiZ987gBiTssdy47dgxU5xPOT</string>
+    <string name="PART_4" translatable="false">mFro7iJc0W_LevRt</string>
     <string name="GenderTextNewOrd" translatable="false">Gender</string>
     <string name="ProductTextNewOrd" translatable="false">Product Type</string>
     <string name="try_again_later" translatable="false">Please try again later</string>

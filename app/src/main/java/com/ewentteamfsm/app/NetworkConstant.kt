@@ -24,7 +24,7 @@ class NetworkConstant {
 
 
        // var BASE_URL = "http://3.7.30.86:8072/API/"
-       // var ADD_SHOP_BASE_URL = "http://3.7.30.86:8072/"
+      //  var ADD_SHOP_BASE_URL = "http://3.7.30.86:8072/"
 
 
         //var BASE_URL = "http://localhost:8081/API/"
