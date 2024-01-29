@@ -445,6 +445,7 @@ class DashboardActivity : BaseActivity(), View.OnClickListener, BaseNavigation, 
         //getNamePhoneDetails()
         //initPermissionCheckOne()
         Pref.MultiVisitIntervalInMinutes = "1"
+        Pref.IsUsbDebuggingRestricted = false
         println("load_frag " + mFragType.toString() + "     " + Pref.user_id.toString()+" "+Pref.MultiVisitIntervalInMinutes+" "+Pref.IsGPSRouteSync+" "+Pref.IsSyncBellNotificationInApp )
         batteryCheck(mFragType,addToStack,initializeObject)
         /*if (addToStack) {
@@ -9303,8 +9304,10 @@ class DashboardActivity : BaseActivity(), View.OnClickListener, BaseNavigation, 
 
                         try {
                             CropImage.activity(contentURI)
-                                    .setAspectRatio(40, 21)
-                                    .start(this)
+                                //.setAspectRatio(40, 21)//mantis id 0027192 Suman date 18-01-2024
+                                .setAspectRatio(40, 40)//mantis id 0027192 Suman date 18-01-2024
+                                .setCropShape(CropImageView.CropShape.OVAL)//mantis id 0027192 Suman date 18-01-2024
+                                .start(this)
                         } catch (e: Exception) {
                             e.printStackTrace()
                             Timber.e("Error: " + e.localizedMessage)
